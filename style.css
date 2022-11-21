@@ -4,41 +4,51 @@
     overflow-x: hidden;
 }
 .game{
-    width: 500px;
-    height: 200px;
+    width: 1400px;
+    height: 700px;
     border: 1px solid black;
     margin: auto;
+    background: url('tlo.png');
 }
 #character{
-    width: 20px;
-    height: 50px;
-    background-color: red;
+    width: 80px;
+    height: 200px;
+    background: url('steve.png');
     position:relative;
-    top: 150px;
+    top: 450px;
 }
 .animate{
     animation: jump 0.3s linear;
 }
 @keyframes jump{
-    0%{top: 150px;}
-    30%{top: 100px;}
-    70%{top: 100px;}
-    100%{top: 150px;}
+    0%{top: 450px;}
+    10%{top: 430px;}
+    20%{top: 410px;}
+    30%{top: 370px;}
+    40%{top: 330px;}
+    50%{top: 290px;}
+    60%{top: 330px;}
+    70%{top: 370px;}
+    80%{top: 410px;}
+    90%{top: 430px;}
+    100%{top: 450px;}
 }
 
 #block{
-    background-color: blue;
-    width: 20px;
-    height: 20px;
+    background: url('block.png');
+    width: 40px;
+    height: 60px;
     position: relative;
-    top: 130px;
+    top: 400px;
     left: 500px;
-    animation: block 1s infinite linear;
+    animation: block 0.5s infinite linear;
 }
+
 @keyframes block{
-    0%{left: 500px}
+    0%{left: 1400px}
     100%{left: -20px}
 }
+
 p{
     text-align: center;
 }
