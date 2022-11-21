@@ -16,6 +16,7 @@
     background: url('steve.png');
     position:relative;
     top: 450px;
+    left: 30px;
 }
 .animate{
     animation: jump 0.3s linear;
@@ -36,7 +37,7 @@
 
 #block{
     background: url('block.png');
-    width: 40px;
+    width: 60px;
     height: 60px;
     position: relative;
     top: 400px;
